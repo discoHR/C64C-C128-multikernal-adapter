@@ -12,6 +12,7 @@ I will test it on my C64 and C128 and update the project when it's safe to do so
 Changelog:
 
 2016-09-14
+- added NC next to unconnected pin
 - initial commit
 
 
