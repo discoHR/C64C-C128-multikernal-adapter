@@ -8203,7 +8203,6 @@ DIN A5, landscape with doc field</description>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="DINA5_L" device=""/>
 <part name="SJ1" library="jumper" deviceset="SJ" device=""/>
-<part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
@@ -8249,10 +8248,9 @@ based on Bwack's 24-pin 27C256 design</text>
 <instance part="GND4" gate="1" x="76.2" y="73.66"/>
 <instance part="GND5" gate="1" x="114.3" y="33.02"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="SJ1" gate="1" x="147.32" y="45.72" rot="R90"/>
-<instance part="SUPPLY1" gate="G$1" x="147.32" y="58.42"/>
+<instance part="SJ1" gate="1" x="139.7" y="53.34" rot="R180"/>
 <instance part="GND2" gate="1" x="55.88" y="40.64"/>
-<instance part="GND3" gate="1" x="147.32" y="38.1"/>
+<instance part="GND3" gate="1" x="147.32" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -8274,15 +8272,6 @@ based on Bwack's 24-pin 27C256 design</text>
 <wire x1="66.04" y1="121.92" x2="78.74" y2="121.92" width="0.1524" layer="91"/>
 <junction x="78.74" y="121.92"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="SJ1" gate="1" pin="2"/>
-<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<wire x1="147.32" y1="58.42" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GP1"/>
-<wire x1="147.32" y1="53.34" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="127" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
-<junction x="147.32" y="53.34"/>
 </segment>
 </net>
 <net name="GND" class="1">
@@ -8309,8 +8298,10 @@ based on Bwack's 24-pin 27C256 design</text>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="SJ1" gate="1" pin="1"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="144.78" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="53.34" x2="147.32" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A15" class="0">
@@ -8558,6 +8549,13 @@ based on Bwack's 24-pin 27C256 design</text>
 <wire x1="91.44" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="GP1"/>
+<pinref part="SJ1" gate="1" pin="2"/>
+<wire x1="127" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -8573,7 +8571,7 @@ based on Bwack's 24-pin 27C256 design</text>
 <approved hash="113,1,53.995,26.5726,!RESET!,,,,,"/>
 <approved hash="113,1,53.0606,44.3526,GND,,,,,"/>
 <approved hash="113,1,91.971,66.571,FRAME1,,,,,"/>
-<approved hash="113,1,145.804,45.72,SJ1,,,,,"/>
+<approved hash="113,1,139.7,51.8245,SJ1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

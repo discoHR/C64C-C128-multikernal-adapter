@@ -16,6 +16,7 @@ Changelog:
 - rearranged signal-pin pairs to allow using weak pull-up for the solder jumper
 - minor design changes
 - improved routing
+- fixed incorrectly connected switch
 
 2016-09-14
 - added NC next to unconnected pin
