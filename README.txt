@@ -17,6 +17,7 @@ Changelog:
 - minor design changes
 - improved routing
 - fixed incorrectly connected switch
+- moved everything from _tsilk to tNames layer
 
 2016-09-14
 - added NC next to unconnected pin

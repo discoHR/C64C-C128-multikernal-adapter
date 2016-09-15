@@ -144,14 +144,14 @@
 <wire x1="21.26" y1="0" x2="21.26" y2="40.63" width="0" layer="20"/>
 <wire x1="21.26" y1="40.63" x2="0" y2="40.63" width="0" layer="20"/>
 <wire x1="0" y1="40.63" x2="0" y2="0" width="0" layer="20"/>
-<text x="10.795" y="36.195" size="0.4572" layer="121" font="vector" align="bottom-center">Rev 1.0 by discoHR 2016</text>
-<text x="10.795" y="34.925" size="0.381" layer="121" align="bottom-center">based on Bwack's 27C256 24-pin</text>
-<text x="10.795" y="37.465" size="0.4572" layer="121" font="vector" align="bottom-center">28-pin multi-kernal adapter</text>
-<text x="10.795" y="34.29" size="0.381" layer="121" align="bottom-center">multi-kernal adapter</text>
-<text x="8.255" y="38.735" size="0.6096" layer="121" font="vector" align="bottom-center">C64/C128</text>
-<text x="10.16" y="19.685" size="0.254" layer="121">OPEN: 4 kernals (27C512)</text>
-<text x="10.16" y="19.05" size="0.254" layer="121">CLOSED: 2 kernals (27C256)</text>
-<text x="15.24" y="36.195" size="0.6096" layer="122" rot="MR0" align="center-left">NC</text>
+<text x="10.795" y="36.195" size="0.4572" layer="25" font="vector" align="bottom-center">Rev 1.0 by discoHR 2016</text>
+<text x="10.795" y="34.925" size="0.381" layer="25" font="vector" align="bottom-center">based on Bwack's 27C256 24-pin</text>
+<text x="10.795" y="37.465" size="0.4572" layer="25" font="vector" align="bottom-center">28-pin multi-kernal adapter</text>
+<text x="10.795" y="34.29" size="0.381" layer="25" font="vector" align="bottom-center">multi-kernal adapter</text>
+<text x="8.255" y="38.735" size="0.6096" layer="25" font="vector" align="bottom-center">C64/C128</text>
+<text x="10.16" y="19.685" size="0.254" layer="25">OPEN: 4 kernals (27C512)</text>
+<text x="10.16" y="19.05" size="0.254" layer="25">CLOSED: 2 kernals (27C256)</text>
+<text x="15.24" y="36.195" size="0.6096" layer="26" rot="MR0" align="center-left">NC</text>
 </plain>
 <libraries>
 <library name="wirepad">
