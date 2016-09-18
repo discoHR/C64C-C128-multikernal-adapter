@@ -8217,7 +8217,7 @@ based on Bwack's 24-pin 27C256 design
 
 CERN Open Hardware License v1.2
 http://www.ohwr.org/</text>
-<text x="175.26" y="5.08" size="1.778" layer="91" align="bottom-center">Rev1.0</text>
+<text x="175.26" y="5.08" size="1.778" layer="91" align="bottom-center">Rev1.1</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="55.88" y="93.98"/>
