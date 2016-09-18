@@ -8209,11 +8209,14 @@ DIN A5, landscape with doc field</description>
 <sheets>
 <sheet>
 <plain>
-<text x="111.76" y="20.32" size="1.4224" layer="97" align="top-center">C64/C128 switchless 27C256/512
+<text x="111.76" y="22.86" size="1.4224" layer="97" align="top-center">C64/C128 switchless 27C256/512
 multi-kernal adapter
 
 Designed by discoHR
-based on Bwack's 24-pin 27C256 design</text>
+based on Bwack's 24-pin 27C256 design
+
+CERN Open Hardware License v1.2
+http://www.ohwr.org/</text>
 <text x="175.26" y="5.08" size="1.778" layer="91" align="bottom-center">Rev1.0</text>
 </plain>
 <instances>
