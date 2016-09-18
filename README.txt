@@ -20,6 +20,7 @@ Changelog:
 2016-09-18
 - added license
 - moved pin headers to the bottom where they belong
+- using larger pads
 
 2016-09-17
 - added board images and PDF with schematic
