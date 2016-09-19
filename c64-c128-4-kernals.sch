@@ -7161,9 +7161,9 @@ Source: http://www.microchip.com .. 41190c.pdf</description>
 <part name="$1_15_$_2016-09-13_12-02-17" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="IC1" library="c64switchless" deviceset="IC-PACKAGE_EDIT_DIL28" device="ROUND" value="27C256/512"/>
 <part name="IC2" library="c64switchless" deviceset="MICROCHIP_PIC12F6*" device="P" technology="29"/>
-<part name="R2" library="c64switchless" deviceset="RCL_R-EU_" device="0207/10" value="2.2k"/>
-<part name="R3" library="c64switchless" deviceset="RCL_R-EU_" device="0207/10" value="2.2k"/>
-<part name="R1" library="c64switchless" deviceset="RCL_R-EU_" device="0207/10" value="2.2k"/>
+<part name="R2" library="c64switchless" deviceset="RCL_R-EU_" device="0207/10" value="10k"/>
+<part name="R3" library="c64switchless" deviceset="RCL_R-EU_" device="0207/10" value="12k"/>
+<part name="R1" library="c64switchless" deviceset="RCL_R-EU_" device="0207/10" value="6.7k"/>
 <part name="RED" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="BLUE" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="GREEN" library="wirepad" deviceset="2,15/1,0" device=""/>

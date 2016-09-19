@@ -17,10 +17,19 @@ I will test it on my C64s and C128s and remove the notice above when I find it s
 
 Changelog:
 
+PCB rev1.1 (WIP)
+
+2016-09-19
+- bumped resistor values significantly because the LED is still too bright at 6.7k
+- increased the board size a bit and rerouted most of the traces
+
 2016-09-18
 - added license
 - moved pin headers to the bottom where they belong
 - using larger pads
+
+
+PCB rev1.0 (final)
 
 2016-09-17
 - added board images and PDF with schematic
