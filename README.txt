@@ -19,6 +19,7 @@ PCB rev1.1 (WIP)
 
 2016-09-28
 - swapped BLUE and GREEN signals to match the RGB LED pinout
+- using 6.7k value for R1, R2 and R3
 
 2016-09-19
 - bumped resistor values significantly because the LED is still too bright at 6.7k

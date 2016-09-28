@@ -153,8 +153,6 @@
 <text x="10.16" y="19.685" size="0.254" layer="25" font="vector">CLOSED: 2 kernals (27C256)</text>
 <text x="15.875" y="36.83" size="0.6096" layer="26" font="vector" rot="MR0" align="center-left">NC</text>
 <text x="10.16" y="28.7528" size="1.016" layer="25" ratio="10">IC2</text>
-<dimension x1="0" y1="0" x2="22.53" y2="0" x3="11.265" y3="-3.175" textsize="1.778" layer="20"/>
-<dimension x1="22.53" y1="0" x2="22.53" y2="41.9" x3="25.4" y3="20.95" textsize="1.778" layer="20"/>
 </plain>
 <libraries>
 <library name="wirepad">
@@ -1685,7 +1683,7 @@ type 0207, grid 10 mm</description>
 <attribute name="NAME" x="17.653" y="1.651" size="0.4064" layer="25" font="vector" ratio="10" align="top-center"/>
 <attribute name="VALUE" x="17.78" y="3.775" size="0.0254" layer="27"/>
 </element>
-<element name="GREEN" library="wirepad" package="2,15/1,0" value="" x="10.16" y="3.175" smashed="yes">
+<element name="BLUE" library="wirepad" package="2,15/1,0" value="" x="10.16" y="3.175" smashed="yes">
 <attribute name="NAME" x="10.033" y="1.651" size="0.4064" layer="25" font="vector" ratio="10" align="top-center"/>
 <attribute name="VALUE" x="10.16" y="3.775" size="0.0254" layer="27"/>
 </element>
@@ -1696,7 +1694,7 @@ type 0207, grid 10 mm</description>
 <attribute name="NAME" x="4.953" y="1.651" size="0.4064" layer="25" font="vector" ratio="10" align="top-center"/>
 <attribute name="VALUE" x="5.08" y="3.775" size="0.0254" layer="27"/>
 </element>
-<element name="BLUE" library="wirepad" package="2,15/1,0" value="" x="7.62" y="3.175" smashed="yes">
+<element name="GREEN" library="wirepad" package="2,15/1,0" value="" x="7.62" y="3.175" smashed="yes">
 <attribute name="NAME" x="7.493" y="1.651" size="0.4064" layer="25" font="vector" ratio="10" align="top-center"/>
 <attribute name="VALUE" x="7.62" y="3.775" size="0.0254" layer="27"/>
 </element>
@@ -1719,10 +1717,10 @@ type 0207, grid 10 mm</description>
 <element name="R1" library="c64switchless" package="RCL_0207/10" value="6.7k" x="8.89" y="12.065" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.636" y="12.827" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="top-right"/>
 </element>
-<element name="R2" library="c64switchless" package="RCL_0207/10" value="10k" x="11.43" y="12.065" smashed="yes" rot="R90">
+<element name="R2" library="c64switchless" package="RCL_0207/10" value="6.7k" x="11.43" y="12.065" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.176" y="12.827" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="top-right"/>
 </element>
-<element name="R3" library="c64switchless" package="RCL_0207/10" value="12k" x="13.97" y="12.065" smashed="yes" rot="R90">
+<element name="R3" library="c64switchless" package="RCL_0207/10" value="6.7k" x="13.97" y="12.065" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.716" y="12.827" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="top-right"/>
 </element>
 <element name="RED" library="wirepad" package="2,15/1,0" value="" x="2.54" y="3.175" smashed="yes">
@@ -1939,7 +1937,7 @@ type 0207, grid 10 mm</description>
 <wire x1="6.985" y1="5.08" x2="8.89" y2="6.985" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$29">
-<contactref element="BLUE" pad="1"/>
+<contactref element="GREEN" pad="1"/>
 <contactref element="R2" pad="1"/>
 <wire x1="7.60095" y1="3.2004" x2="11.33475" y2="6.9342" width="0.4064" layer="1"/>
 <wire x1="11.33475" y1="6.9342" x2="11.43" y2="6.985" width="0.4064" layer="1"/>
@@ -1947,7 +1945,7 @@ type 0207, grid 10 mm</description>
 </signal>
 <signal name="N$30">
 <contactref element="R3" pad="1"/>
-<contactref element="GREEN" pad="1"/>
+<contactref element="BLUE" pad="1"/>
 <wire x1="10.1346" y1="3.2004" x2="13.8684" y2="6.9342" width="0.4064" layer="1"/>
 <wire x1="13.8684" y1="6.9342" x2="13.97" y2="6.985" width="0.4064" layer="1"/>
 <wire x1="10.1346" y1="3.2004" x2="10.16" y2="3.175" width="0.4064" layer="1"/>

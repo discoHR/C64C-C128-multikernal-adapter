@@ -7161,12 +7161,12 @@ Source: http://www.microchip.com .. 41190c.pdf</description>
 <part name="$1_15_$_2016-09-13_12-02-17" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="IC1" library="c64switchless" deviceset="IC-PACKAGE_EDIT_DIL28" device="ROUND" value="27C256/512"/>
 <part name="IC2" library="c64switchless" deviceset="MICROCHIP_PIC12F6*" device="P" technology="29"/>
-<part name="R2" library="c64switchless" deviceset="RCL_R-EU_" device="0207/10" value="10k"/>
-<part name="R3" library="c64switchless" deviceset="RCL_R-EU_" device="0207/10" value="12k"/>
+<part name="R2" library="c64switchless" deviceset="RCL_R-EU_" device="0207/10" value="6.7k"/>
+<part name="R3" library="c64switchless" deviceset="RCL_R-EU_" device="0207/10" value="6.7k"/>
 <part name="R1" library="c64switchless" deviceset="RCL_R-EU_" device="0207/10" value="6.7k"/>
 <part name="RED" library="wirepad" deviceset="2,15/1,0" device=""/>
-<part name="BLUE" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="GREEN" library="wirepad" deviceset="2,15/1,0" device=""/>
+<part name="BLUE" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="!RESTORE!" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="!RESET!" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="025-024X044" value="100n"/>
@@ -7214,8 +7214,8 @@ http://www.ohwr.org/</text>
 <attribute name="VALUE" x="62.23" y="57.658" size="1.778" layer="96"/>
 </instance>
 <instance part="RED" gate="1" x="50.8" y="60.96"/>
-<instance part="BLUE" gate="1" x="50.8" y="55.88"/>
-<instance part="GREEN" gate="1" x="50.8" y="50.8"/>
+<instance part="GREEN" gate="1" x="50.8" y="55.88"/>
+<instance part="BLUE" gate="1" x="50.8" y="50.8"/>
 <instance part="!RESTORE!" gate="1" x="50.8" y="30.48"/>
 <instance part="!RESET!" gate="1" x="50.8" y="25.4"/>
 <instance part="C1" gate="G$1" x="78.74" y="119.38"/>
@@ -7504,7 +7504,7 @@ http://www.ohwr.org/</text>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="BLUE" gate="1" pin="P"/>
+<pinref part="GREEN" gate="1" pin="P"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -7512,7 +7512,7 @@ http://www.ohwr.org/</text>
 <net name="N$30" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="GREEN" gate="1" pin="P"/>
+<pinref part="BLUE" gate="1" pin="P"/>
 <wire x1="78.74" y1="50.8" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7541,8 +7541,8 @@ http://www.ohwr.org/</text>
 <approved hash="113,1,62.8227,94.1747,J1,,,,,"/>
 <approved hash="113,1,130.217,94.1747,J2,,,,,"/>
 <approved hash="113,1,53.0606,62.1326,RED,,,,,"/>
-<approved hash="113,1,53.0606,57.0526,BLUE,,,,,"/>
-<approved hash="113,1,53.4493,51.9726,GREEN,,,,,"/>
+<approved hash="113,1,53.4493,57.0526,GREEN,,,,,"/>
+<approved hash="113,1,53.0606,51.9726,BLUE,,,,,"/>
 <approved hash="113,1,55.6322,31.6526,!RESTORE!,,,,,"/>
 <approved hash="113,1,53.995,26.5726,!RESET!,,,,,"/>
 <approved hash="113,1,53.0606,44.3526,GND,,,,,"/>
