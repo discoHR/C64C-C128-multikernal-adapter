@@ -1,5 +1,3 @@
-README.txt (2016-09-14)
-
 C64/C128 Switchless 28-pin Multi Kernal Adapter
 - 27C256/27C512 ROM adapter for C64 (short board) and C128
 Designed by discoHR based on Bwack's 24-pin adapter design (https://github.com/bwack/C64-Switchless-Multi-Kernal-27C256-adapter)
@@ -18,6 +16,9 @@ I will test it on my C64s and C128s and remove the notice above when I find it s
 Changelog:
 
 PCB rev1.1 (WIP)
+
+2016-09-28
+- swapped BLUE and GREEN signals to match the RGB LED pinout
 
 2016-09-19
 - bumped resistor values significantly because the LED is still too bright at 6.7k
