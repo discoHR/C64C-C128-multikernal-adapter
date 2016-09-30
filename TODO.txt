@@ -1,0 +1,4 @@
+- move the PIC half the pin pitch (1.27mm) towards the top (normal socket's middle bar wouldn't need to be cut anymore)
+- silkscreen font is too small, use larger font and move some text to the other side (DirtyPCBs supports it despite stating otherwise)
+- there is plenty of space inside C64C/C128 to expand the board a bit vertically, currently the pin headers at the bottom are way too 
+  close to the EPROM and expanding the board would allow the font at the bottom to be larger
