@@ -21,8 +21,14 @@ unlike the restore key, the reset button is always in select mode.
 There are two LED colour themes but due to hardware limitations, they don't
 differ much. You can hold the restore key during power-on to toggle between
 the two themes.
-Theme #1: yellow, blue ?, ?
-Theme #2: orange, magenta, ?, ?
+
+Theme #1:
+2 kernals: yellow, blue
+4 kernals: red, blue, green, cyan
+
+Theme #2:
+2 kernals: orange, magenta
+4 kernals: red, magenta, lime, white
 
 
 DISCLAIMER: THIS IS UNTESTED AND COULD FRY YOUR COMPUTER. USE AT OWN RISK!
