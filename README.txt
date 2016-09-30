@@ -21,13 +21,18 @@ unlike the restore key, the reset button is always in select mode.
 There are two LED colour themes but due to hardware limitations, they don't
 differ much. You can hold the restore key during power-on to toggle between
 the two themes.
-Theme #1: red, blue, green, cyan
-Theme #2: red, magenta, yellow, white
+Theme #1: yellow, blue ?, ?
+Theme #2: orange, magenta, ?, ?
 
 
 DISCLAIMER: THIS IS UNTESTED AND COULD FRY YOUR COMPUTER. USE AT OWN RISK!
 
-I will test it on my C64s and C128s and remove the notice above when I find it safe to use.
+I'm testing it on my C64C and C128 and will remove the notice above when I find it safe to use.
+
+C64C 2-kernals: TESTED OK
+C128 2-kernals: ?
+C64C 4-kernals: ?
+C128 4-kernals: ?
 
 
 Changelog:

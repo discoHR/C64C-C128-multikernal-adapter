@@ -1,11 +1,5 @@
-// Firmware for C64/C128 28-pin multi-kernal adapter
-// Coded by discoHR
-
-// Multikernal switcher for the C64C/C128 shortboard
-// a 27C256 or 27C512 EPROM adapter with two or four kernals, respectively
-
-// MCU: PIC12F629 8 pin PDIP
-// use any pic-programmer and load the .hex file
+// Firmware for C64C/C128 28-pin multi-kernal adapter
+// Coded by discoHR, based on Bwack's code for multi-kernal adapter for breadbin
 
 // CONFIG
 #pragma config FOSC = INTRCIO   // Oscillator Selection bits (INTOSC oscillator: I/O function on GP4/OSC2/CLKOUT pin, I/O function on GP5/OSC1/CLKIN)
@@ -92,7 +86,7 @@ void Init(void) {
     RESET_N = 1;
     RESTORE_N = 1;
     RED_LED = 0;
-    __delay_ms(20);
+    __delay_ms(50);
     if (SJ1) {
         WPUbits.WPU5 = 0;
         TRISIO = 0b00001110;
