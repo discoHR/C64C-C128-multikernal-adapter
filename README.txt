@@ -36,7 +36,7 @@ DISCLAIMER: THIS IS UNTESTED AND COULD FRY YOUR COMPUTER. USE AT OWN RISK!
 I'm testing it on my C64C and C128 and will remove the notice above when I find it safe to use.
 
 C64C 2-kernals: TESTED OK
-C128 2-kernals: ?
+C128 2-kernals: TESTED OK
 C64C 4-kernals: ?
 C128 4-kernals: ?
 
