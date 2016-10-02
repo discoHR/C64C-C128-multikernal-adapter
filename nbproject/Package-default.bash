@@ -10,9 +10,9 @@ CND_CONF=default
 CND_DISTDIR=dist
 TMPDIR=build/${CND_CONF}/${IMAGE_TYPE}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/C64-C128-28pin-multi-kernal-adapter.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-OUTPUT_BASENAME=C64-C128-28pin-multi-kernal-adapter.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-PACKAGE_TOP_DIR=c64-c128-28pin-multi-kernal-adapter/
+OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/C64C-C128-multikernal-adapter.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+OUTPUT_BASENAME=C64C-C128-multikernal-adapter.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+PACKAGE_TOP_DIR=c64c-c128-multikernal-adapter/
 
 # Functions
 function checkReturnCode
@@ -57,15 +57,15 @@ mkdir -p ${TMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory ${TMPDIR}/c64-c128-28pin-multi-kernal-adapter/bin
+makeDirectory ${TMPDIR}/c64c-c128-multikernal-adapter/bin
 copyFileToTmpDir "${OUTPUT_PATH}" "${TMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/package/c64-c128-28pin-multi-kernal-adapter.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/package/c64c-c128-multikernal-adapter.tar
 cd ${TMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/c64-c128-28pin-multi-kernal-adapter.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/c64c-c128-multikernal-adapter.tar *
 checkReturnCode
 
 # Cleanup

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=C64-C128-28pin-multi-kernal-adapter
+PROJECTNAME=C64C-C128-multikernal-adapter
 
 # Active Configuration
 DEFAULTCONF=default

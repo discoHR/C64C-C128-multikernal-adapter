@@ -1,5 +1,6 @@
-// Firmware for C64C/C128 28-pin multi-kernal adapter
+// Firmware for C64C/C128 multi-kernal adapter
 // Coded by discoHR, based on Bwack's code for multi-kernal adapter for breadbin
+// https://github.com/discoHR/C64C-C128-multikernal-adapter
 
 // CONFIG
 #pragma config FOSC = INTRCIO   // Oscillator Selection bits (INTOSC oscillator: I/O function on GP4/OSC2/CLKOUT pin, I/O function on GP5/OSC1/CLKIN)

@@ -7182,7 +7182,7 @@ Source: http://www.microchip.com .. 41190c.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="111.76" y="22.86" size="1.4224" layer="97" align="top-center">C64/C128 switchless 27C256/512
+<text x="111.76" y="22.86" size="1.4224" layer="94" font="vector" align="top-center">C64C/C128 switchless 27C512/27C256
 multi-kernal adapter
 
 Designed by discoHR
@@ -7190,7 +7190,7 @@ based on Bwack's 24-pin 27C256 design
 
 CERN Open Hardware License v1.2
 http://www.ohwr.org/</text>
-<text x="175.26" y="5.08" size="1.778" layer="91" align="bottom-center">Rev1.1</text>
+<text x="175.26" y="5.08" size="1.778" layer="94" font="vector" align="bottom-center">rev1.1</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="55.88" y="93.98"/>
@@ -7199,7 +7199,7 @@ http://www.ohwr.org/</text>
 <instance part="IC1" gate="G$1" x="96.52" y="93.98"/>
 <instance part="IC2" gate="G$1" x="111.76" y="50.8" smashed="yes">
 <attribute name="NAME" x="101.6" y="62.23" size="1.778" layer="95"/>
-<attribute name="VALUE" x="116.84" y="40.64" size="1.27" layer="96"/>
+<attribute name="VALUE" x="116.84" y="40.64" size="1.27" layer="96" font="vector"/>
 </instance>
 <instance part="R2" gate="G$1" x="73.66" y="55.88" smashed="yes">
 <attribute name="NAME" x="72.39" y="57.3786" size="1.778" layer="95"/>
@@ -7223,7 +7223,11 @@ http://www.ohwr.org/</text>
 <instance part="GND" gate="1" x="50.8" y="43.18"/>
 <instance part="GND4" gate="1" x="76.2" y="73.66"/>
 <instance part="GND5" gate="1" x="114.3" y="33.02"/>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="140.97" y="15.24" size="2.1844" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="140.97" y="10.16" size="2.1844" layer="94" font="vector"/>
+<attribute name="SHEET" x="154.305" y="5.08" size="2.1844" layer="94" font="vector"/>
+</instance>
 <instance part="SJ1" gate="1" x="139.7" y="53.34" rot="R180"/>
 <instance part="GND2" gate="1" x="55.88" y="40.64"/>
 <instance part="GND3" gate="1" x="147.32" y="45.72"/>

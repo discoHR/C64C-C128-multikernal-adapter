@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>C64-C128-28pin-multi-kernal-adapter</name>
+            <name>C64C-C128-multikernal</name>
             <creation-uuid>6210418f-9279-4a69-921c-f36ea3afe9b4</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>

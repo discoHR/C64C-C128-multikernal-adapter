@@ -1,6 +1,8 @@
-C64/C128 Switchless 28-pin Multi Kernal Adapter
-- 27C256/27C512 ROM adapter for C64 (short board) and C128
-Designed by discoHR based on Bwack's 24-pin adapter design (https://github.com/bwack/C64-Switchless-Multi-Kernal-27C256-adapter)
+C64C/C128 Switchless Multi-Kernal Adapter
+27C512/27C256 ROM adapter for C64C and C128
+https://github.com/discoHR/C64C-C128-multikernal-adapter
+Designed by discoHR, based on Bwack's 24-pin adapter design.
+(https://github.com/bwack/C64-Switchless-Multi-Kernal-27C256-adapter)
 CERN OPEN HARDWARE LICENSE v1.2
 http://www.ohwr.org/
 
@@ -43,7 +45,15 @@ C128 4-kernals: ?
 
 Changelog:
 
-PCB rev1.1 (WIP)
+PCB rev1.1 (final)
+
+2016-10-02
+- expanded the pcb a bit
+- increased the distance between EPROM and connectors
+- increased font sizes
+- moved some texts to the bottom
+- added CERN OHL and GitHub URL to the silkscreen
+- finalized rev1.1
 
 2016-09-30
 - first version of firmware
