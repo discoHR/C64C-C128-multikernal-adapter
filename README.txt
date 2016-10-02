@@ -32,15 +32,20 @@ Theme #2:
 2 kernals: orange, magenta
 4 kernals: red, magenta, lime, white
 
+For R1, R2 and R3 you can use any value up to 12k (perhaps even more), depends
+how bright you want the RGB LED.
 
+===============================================================================
 DISCLAIMER: THIS IS UNTESTED AND COULD FRY YOUR COMPUTER. USE AT OWN RISK!
 
-I'm testing it on my C64C and C128 and will remove the notice above when I find it safe to use.
+I'm testing it on my C64C and C128 and will remove the notice above when I find
+it safe to use.
 
 C64C 2-kernals: TESTED OK
 C128 2-kernals: TESTED OK
 C64C 4-kernals: ?
 C128 4-kernals: ?
+===============================================================================
 
 
 Changelog:
