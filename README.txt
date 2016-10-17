@@ -43,7 +43,7 @@ it safe to use.
 
 C64C 2-kernals: TESTED OK
 C128 2-kernals: TESTED OK
-C64C 4-kernals: ?
+C64C 4-kernals: TESTED OK
 C128 4-kernals: ?
 ===============================================================================
 
