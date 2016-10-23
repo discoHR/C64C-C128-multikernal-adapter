@@ -50,6 +50,12 @@ C128 4-kernals: ?
 
 Changelog:
 
+Firmware udpates (PCB agnostic)
+
+2016-10-23
+- using sleep and IOC
+
+
 PCB rev1.1 (final)
 
 2016-10-02
