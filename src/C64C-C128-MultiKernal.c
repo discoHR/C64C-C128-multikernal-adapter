@@ -97,9 +97,10 @@ void Init(void) {
     redInverted = EEPROM_READ(EEPROM_ADDR_RED_INVERTED) & 1;
     DoReset();
 
-    IOCbits.IOC2 = IOCbits.IOC3 = 1; // GPIO interrupt-on-change mask
-    GPIE = 1; // GPIO Interrupt enable, on
-    GIE = 0; // Globale interrupt enable, off
+    // IOCbits.IOC2 = IOCbits.IOC3 = 1;
+    IOC = 0b00001100;       // GPIO interrupt-on-change for both inputs
+    GPIE = 1;               // GPIO Interrupt enable, on
+    GIE = 0;                // Global interrupt enable, off
 
     for (i = 0; i < 10; i++) {
         RED_LED = 0;
