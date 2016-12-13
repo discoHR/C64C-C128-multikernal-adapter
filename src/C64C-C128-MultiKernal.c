@@ -97,6 +97,11 @@ void Init(void) {
     redInverted = EEPROM_READ(EEPROM_ADDR_RED_INVERTED) & 1;
     DoReset();
 
+    // IOCbits.IOC2 = IOCbits.IOC3 = 1;
+    IOC = 0b00001100;       // GPIO interrupt-on-change for both inputs
+    GPIE = 1;               // GPIO Interrupt enable, on
+    GIE = 0;                // Global interrupt enable, off
+
     for (i = 0; i < 10; i++) {
         RED_LED = 0;
         __delay_ms(50);
@@ -129,6 +134,8 @@ void main() {
                     ++buttonTimer;
                 } else {
                     buttonTimer = 0;
+                    SLEEP();
+                    GPIF = 0;
                 }
                 if (buttonTimer > 15 || !RESET_N) {
                     // either the restore key was long-pressed or

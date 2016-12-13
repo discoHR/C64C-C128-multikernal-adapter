@@ -38,6 +38,12 @@ how bright you want the RGB LED.
 
 Changelog:
 
+Firmware udpates (PCB agnostic)
+
+2016-10-23
+- using sleep and IOC
+
+
 PCB rev1.1 (final)
 
 2016-10-02
